@@ -45,6 +45,11 @@
             <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="menu-toggle-icon" width="32" height="22">
+            <use href="./images/icons.svg#menu-hamburger "></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- Main block -->
@@ -508,6 +513,82 @@
         </form>
       </div>
     </div>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Studio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Portfolio</a>
+        </li>
+        <li class="mobile-menu-item">
+          <a href="" class="mobile-menu-link">Contacts</a>
+        </li>
+      </ul>
+      <address class="address-menu">
+        <ul class="menu-mobile">
+          <li>
+            <a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+      <ul class="mobile-team-list">
+        <li class="mobile-team-item">
+          <a href="" class="team-link">
+            <svg class="mobile-team-icons" width="40" height="40">
+              <use href="./images/icons.svg#instagramm"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-team-item">
+          <a href="" class="team-link">
+            <svg class="mobile-team-icons" width="40" height="40">
+              <use href="./images/icons.svg#twitterr"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-team-item">
+          <a href="" class="team-link">
+            <svg class="mobile-team-icons" width="40" height="40">
+              <use href="./images/icons.svg#facebookk"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="mobile-team-item">
+          <a href="" class="team-link">
+            <svg class="mobile-team-icons" width="40" height="40">
+              <use href="./images/icons.svg#linkedinn"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
